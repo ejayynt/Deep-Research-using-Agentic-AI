@@ -8,10 +8,25 @@ This project helps in deep research by analyzing the web and other resources to 
 4. State Management: Uses LangGraph for structured execution.
 
 ## System workflow
-![Model](https://github.com/user-attachments/assets/fc46d006-e8a8-4e74-bebb-142e21643239)
+![Model](https://github.com/user-attachments/assets/c3222cac-bed9-4958-98a8-339c955be33e)
 
 
+## Models
+As of now, three agents are working. The LLM used is from Mistral AI. Each agent has a specific task:
+### Researcher:
+Searches and extracts key insights, facts, and contradictions from web sources in real time with the help of Tavily. It summarizes findings, documents sources for reference, and 
+prepares structured research notes for the next step.
+### Synthesizer:
+Analyze, organize, and structure the information the research agent obtains into a logical structure. It looks for patterns, relationships, and contradictions in the research to provide a more factual answer.
+### Drafter: 
+Converts the research results into well-structured, readable, engaging, and easy-to-understand answers. Use formatting methods like headings, bullet points, and citations if needed. Also, tries to provide examples and analogies for better explanations.
+
+## API Keys
+This project uses API keys from:
+* [Mistral AI](https://mistral.ai/): LLM for the agents
+* [Tavily](https://tavily.com/): For real-time web searching
 
 ## Future Improvements
-1. Provide a user interface so for better interaction.
+1. Provide a robust user interface so for better interaction.
 2. Provide long-term memory for better connection with the user.
+3. Integrate Retrieval-Augmented Generation (RAG) to improve responses further.
