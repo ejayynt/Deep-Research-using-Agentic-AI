@@ -8,8 +8,11 @@ This project helps in deep research by analyzing the web and other resources to 
 4. State Management: Uses LangGraph for structured execution.
 
 ## System workflow
-![Model](https://github.com/user-attachments/assets/c3222cac-bed9-4958-98a8-339c955be33e)
+<p>
+<img src="https://github.com/user-attachments/assets/c3222cac-bed9-4958-98a8-339c955be33e" alt="Model Architecture" width="400">
+</p>
 
+A user input is taken as a user query. This is then given to the system, and then the system produces a final answer.
 
 ## Models
 As of now, three agents are working. The LLM used is from Mistral AI. Each agent has a specific task:
