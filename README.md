@@ -17,7 +17,7 @@ A user input is taken as a user query. This is then given to the system, and the
 ## Models
 As of now, three agents are working. The LLM used is from Mistral AI. Each agent has a specific task:
 ### Researcher:
-Searches and extracts key insights, facts, and contradictions from web sources in real time with the help of Tavily. It summarizes findings, documents sources for reference, and 
+Searches and extracts key insights, facts, and contradictions from web sources in real-time with the help of Tavily. It summarizes findings, documents sources for reference, and 
 prepares structured research notes for the next step.
 ### Synthesizer:
 Analyze, organize, and structure the information the research agent obtains into a logical structure. It looks for patterns, relationships, and contradictions in the research to provide a more factual answer.
@@ -33,3 +33,4 @@ This project uses API keys from:
 1. Provide a robust user interface so for better interaction.
 2. Provide long-term memory for better connection with the user.
 3. Integrate Retrieval-Augmented Generation (RAG) to improve responses further.
+4. Provide the ability to obtain and show relevant diagrams or images along with search results.
